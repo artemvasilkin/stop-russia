@@ -8,7 +8,7 @@ CWD=$(pwd)
 
 #######
 
-TAG="stop-ru"
+TAG="learn_docker_sr"
 
 VMs=()
 

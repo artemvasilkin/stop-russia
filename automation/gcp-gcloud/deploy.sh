@@ -11,7 +11,7 @@ CWD=$(pwd)
 COUNT=1
 TARGET=""
 
-TAG="stop-ru"
+TAG="learn_docker_sr"
 TIMESTAMP=$(date +%s)
 
 usage() {

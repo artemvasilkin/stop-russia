@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "stoprussia"
+  default = "learn_docker_sr"
 }
 
 variable "region" {
@@ -15,5 +15,5 @@ variable "mem_spec" {
 }
 
 output "name" {
-  value = azurerm_container_group.stoprussia.name
+  value = azurerm_container_group.learn_docker_sr.name
 }
