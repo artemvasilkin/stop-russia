@@ -27,5 +27,5 @@ do
     --user-data-file userdata.sh \
     --region $REGION \
     --ssh-keys "${KEYS}" \
-    "learn_docker_sr-${REGION}-${HASH}"
+    "learn-docker-sr-${REGION}-${HASH}"
 done
