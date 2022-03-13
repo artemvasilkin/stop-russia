@@ -29,7 +29,7 @@ resource "azurerm_container_group" "learn_docker_sr" {
   restart_policy      = "Always"
 
   container {
-    name   = "learn_docker_sr-0"
+    name   = "learn-docker-sr-0"
     image  = "abagayev/stop-russia:latest"
     cpu    = var.cpu_spec
     memory = var.mem_spec
@@ -38,45 +38,45 @@ resource "azurerm_container_group" "learn_docker_sr" {
   # replicate/uncomment additional `container` blocks here
 
   # container {
-  #   name   = "learn_docker_sr-1"
+  #   name   = "learn-docker-sr-1"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
 
   # container {
-  #   name   = "learn_docker_sr-2"
+  #   name   = "learn-docker-sr-2"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
   # container {
-  #   name   = "learn_docker_sr-3"
+  #   name   = "learn-docker-sr-3"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
   # container {
-  #   name   = "learn_docker_sr-4"
+  #   name   = "learn-docker-sr-4"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
   # container {
-  #   name   = "learn_docker_sr-5"
+  #   name   = "learn-docker-sr-5"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
   # container {
-  #   name   = "learn_docker_sr-6"
+  #   name   = "learn-docker-sr-6"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
   # }
 
   # container {
-  #   name   = "learn_docker_sr-7"
+  #   name   = "learn-docker-sr-7"
   #   image  = "abagayev/stop-russia:latest"
   #   cpu    = var.cpu_spec
   #   memory = var.mem_spec
