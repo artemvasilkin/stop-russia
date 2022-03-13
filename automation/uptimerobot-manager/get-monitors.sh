@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Cache-Control: no-cache" -d 'api_key=ur1656914-20fbb55acfe4ded721f786c7&format=json&logs=1' "https://api.uptimerobot.com/v2/getMonitors" > './stubborn-monitors.json'
