@@ -4,7 +4,6 @@ resource "random_shuffle" "az" {
     "japaneast", # JA West
     "japanwest", # JA West
     "koreacentral", # KR Central
-    "koreasouth", # KR South
     "southeastasia", # Southeast Asia
     "southindia", # IN South
     "westindia", # IN West
@@ -37,48 +36,48 @@ resource "azurerm_container_group" "learn_docker_sr" {
 
   # replicate/uncomment additional `container` blocks here
 
-  # container {
-  #   name   = "learn-docker-sr-1"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
+  container {
+    name   = "learn-docker-sr-1"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
 
-  # container {
-  #   name   = "learn-docker-sr-2"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
-  # container {
-  #   name   = "learn-docker-sr-3"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
-  # container {
-  #   name   = "learn-docker-sr-4"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
-  # container {
-  #   name   = "learn-docker-sr-5"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
-  # container {
-  #   name   = "learn-docker-sr-6"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
+  container {
+    name   = "learn-docker-sr-2"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
+  container {
+    name   = "learn-docker-sr-3"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
+  container {
+    name   = "learn-docker-sr-4"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
+  container {
+    name   = "learn-docker-sr-5"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
+  container {
+    name   = "learn-docker-sr-6"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
 
-  # container {
-  #   name   = "learn-docker-sr-7"
-  #   image  = "abagayev/stop-russia:latest"
-  #   cpu    = var.cpu_spec
-  #   memory = var.mem_spec
-  # }
+  container {
+    name   = "learn-docker-sr-7"
+    image  = "abagayev/stop-russia:latest"
+    cpu    = var.cpu_spec
+    memory = var.mem_spec
+  }
 }
