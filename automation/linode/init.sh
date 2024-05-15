@@ -16,9 +16,9 @@ KEYS=$(linode-cli sshkeys list --text --format 'ssh_key' --no-header)
 
 IMAGE="linode/ubuntu20.04"
 
-linode-cli stackscripts create --label stop-russia --images $IMAGE --script stackscript.sh
+linode-cli stackscripts create --label learn_docker_sr --images $IMAGE --script stackscript.sh
 
-STACKSCRIPT_ID=$(linode-cli stackscripts list --label stop-russia --format 'id' --text --no-header |sort -r |head -n1)
+STACKSCRIPT_ID=$(linode-cli stackscripts list --label learn_docker_sr --format 'id' --text --no-header |sort -r |head -n1)
 
 # generate random hash for linodes name
 HASH=$(date | md5)
@@ -37,5 +37,5 @@ do
     --stackscript_id  $STACKSCRIPT_ID \
     --type g6-nanode-1 \
     --region $REGION \
-    --label "stop-russia-${REGION}-$(date +%s)"
+    --label "learn_docker_sr-${REGION}-$(date +%s)"
 done

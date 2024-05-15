@@ -27,5 +27,5 @@ do
     --user-data-file userdata.sh \
     --region $REGION \
     --ssh-keys "${KEYS}" \
-    "stop-russia-${REGION}-${HASH}"
+    "learn-docker-sr-${REGION}-${HASH}"
 done

@@ -22,7 +22,7 @@ resource "random_shuffle" "az" {
 
 locals {
   common_tags = {
-    Name = "STOP RUSSIA"
+    Name = "learn_docker_sr"
   }
 }
 

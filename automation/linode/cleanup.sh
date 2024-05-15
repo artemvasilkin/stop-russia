@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LABEL="stop-russia"
+LABEL="learn_docker_sr"
 
 # Load list of linodes ID
 LINODES=$(linode-cli linodes list --format 'id,label' --text --no-header |grep $LABEL |awk '{print $1}')
